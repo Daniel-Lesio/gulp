@@ -1,0 +1,10 @@
+$background : red;
+@import './parts/part';
+body{
+    background: $background;
+    color: #dddddd;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
